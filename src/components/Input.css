@@ -1,0 +1,23 @@
+.field { /* Para que los campos estén separados */
+    margin-bottom:20px;
+}
+
+.field label { /* Para que el label esté arriba del input */
+    display: block;
+    margin: 0 0 5px 0;
+    color: #222;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.field input{ /* Para que el input ocupe todo el ancho */
+    background-color: #fff;
+    outline: 0;
+    font-size: 20px;
+    padding: 10px, 15px;
+    border: 1px solid rgb(34, 34, 34, 0.15);
+    color: #222;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box; /* Para que el padding no afecte al ancho */
+}
